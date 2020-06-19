@@ -973,6 +973,7 @@ def main(_):
 
 
 if __name__ == "__main__":
+  exit(0)
   flags.mark_flag_as_required("data_dir")
   flags.mark_flag_as_required("task_name")
   flags.mark_flag_as_required("vocab_file")
